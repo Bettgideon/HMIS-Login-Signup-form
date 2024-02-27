@@ -1,0 +1,88 @@
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eb9797; /* Light Gray */
+    color: #333; /* Dark Gray */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background-color: rgb(206, 194, 194); /* White */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+/* Header */
+header {
+    background-color: #396fe4; /* Purple */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px 40px 0 0;
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 12px);
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2196f3; /* Blue */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #4caf50; /* Green Hover */
+}
+
+/* Login Link */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-link a {
+    color: #007bff; /* Blue */
+    text-decoration: none;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
