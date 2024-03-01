@@ -16,3 +16,5 @@ If you don't have an account, navigate to the sign-up page and register for a ne
 Upon successful login, you can explore further functionalities of the system.
 Contributing:
 Contributions to this Hotel Management System project are not currently accepted, as it is a simple demonstration project.
+
+
